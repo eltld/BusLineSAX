@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/my_back"    
+     >
+    <Button 
+        android:id="@+id/db_bt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="check the item"
+        />
+	<TableLayout  
+			android:layout_width="fill_parent"   
+			android:layout_height="wrap_content"
+			android:stretchColumns="1"
+			>
+			    <TableRow>
+			        <TextView
+			            android:text="起点"
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"
+			            ></TextView>
+			        <EditText 
+			            android:id="@+id/db_et1"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:background="@drawable/edittext_style"
+			            ></EditText>
+			    </TableRow>
+			    <TableRow>
+			        <TextView
+			            android:text="终点"
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"
+			            ></TextView>
+			        <EditText 
+			            android:id="@+id/db_et2"
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:background="@drawable/edittext_style"
+			            ></EditText>
+			    </TableRow>	
+			    			   		<Button 
+				   	 android:id="@+id/db_bt2"
+					 android:layout_width="fill_parent"
+					 android:layout_height="wrap_content"
+					 android:text="search"
+					 android:background="@drawable/button_style"
+					 ></Button>			    
+			    
+		 </TableLayout>
+<!-- 		<ListView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/db_search_list"
+		
+			/> -->
+		<TextView 
+		    android:id="@+id/db_tv1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    
+		    />
+    
+
+</LinearLayout>

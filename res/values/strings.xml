@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BusLineSAXActivity!</string>
+    <string name="app_name">BusLineSAX</string>
+	<string name="bt1">查询</string>
+	<string name="tv1">城市</string>
+	<string name="tv2">车序</string>
+	<string name="bt2">更新</string>
+</resources>

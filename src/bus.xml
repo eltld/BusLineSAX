@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<result_num>13</result_num>
+<web_url>http://bus.aibang.com</web_url>
+<wap_url>http://wap.aibang.com</wap_url>
+<lines>
+<line>
+<name>42路</name>
+<info>
+1-599路; 东四十条桥5:30-23:00|广外甘石桥5:30-23:00;
+</info>
+<stats>
+东四十条桥;张自忠路;宽街路口东;
+地安门东;北海北门;厂桥路口东
+</stats>
+<stat_xys/>
+<xys/>
+</line>
+<line>
+<name>42路</name>
+<info>
+1-599路; 东四十条桥5:30-23:00|广外甘石桥5:30-23:00;
+</info>
+<stats>
+广外甘石桥;达官营;广外关厢;广安门北;天宁寺桥北;真武庙;
+</stats>
+<stat_xys/>
+<xys/>
+</line>
+</lines>
+</root>
